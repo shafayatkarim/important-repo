@@ -1,0 +1,36 @@
+/* 1st portion styles */
+.start-portion{
+    font-family: 'Poppins', sans-serif;
+    height: 53px;
+    width:302px;
+    border-radius: nullpx;
+    margin: 50 230;
+}
+
+    
+.navigation ul list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+font-weight: 18px;
+align-items: center;
+  
+
+    
+}
+.container{
+    display: flex;
+  justify-content: space-around;
+}
+.list{
+    display: flex;
+    flex-direction: end;
+    margin-left: 10px;
+    padding: 10px;
+    align-items: flex-end;
+}
+/* 2nd portion styles */
+.primary{
+    background-color: #FF900E;
+    color: #FFFFFF;
+}
