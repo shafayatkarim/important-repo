@@ -33,6 +33,9 @@ align-items: center;
 .primary{
     background-color: #FF900E;
     color: #FFFFFF;
+    height:64px;
+    width:180px;
+    border-radius:8px;
 }
 .container-thyphon{
     text-align: center;
@@ -42,4 +45,26 @@ align-items: center;
 .thyphon-title{
     font-size: 64px;
     color: #131313;
+}
+.inverse{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+@media only screen and(min-width:577px) and (max-width:767px) {
+   
+}
+/* section-2  */
+.mixture{
+  color: #727272;
+  font-size: 45px;
+}
+.spectra{
+    font-size: 45px;
+    font-style: bold;
+    color:#131313;
+}
+.peranormal{
+    color: #FF900E;
+    font-size: 45px;
 }
