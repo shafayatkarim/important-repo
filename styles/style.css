@@ -34,3 +34,12 @@ align-items: center;
     background-color: #FF900E;
     color: #FFFFFF;
 }
+.container-thyphon{
+    text-align: center;
+    background-color:
+    rgba(255, 144, 14, 0.1);
+}
+.thyphon-title{
+    font-size: 64px;
+    color: #131313;
+}
