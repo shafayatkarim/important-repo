@@ -117,3 +117,35 @@ font-size: 20px;
     font-size: 45px;
     color: #424242;
 }
+.sponsar-title{
+    font-size: 45px;
+    color: #131313;
+}
+.sponsar-info{
+    font-size: 16px;
+    color: #727272;
+}
+.sponsar-container{
+    text-align: center;
+}
+.icon-smasher{
+    display: flex;
+    gap:100px;
+    flex-direction:row;
+    justify-content: center;
+    
+    
+ 
+  
+
+    
+}
+/* media Queries for mobile devices */
+@media only screen and (max-width:480px) {
+    .icon-smasher{
+        width: 50%;
+     display: grid;
+     grid-template-columns: repeat(5,1fr);
+    }
+
+}
